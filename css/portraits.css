@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    text-decoration: none;
 }
 /* Container */
 
@@ -124,9 +125,6 @@ hr {
 
 p {
     font-size: 20px;
-    margin-bottom: -4px;
-}
-.port {
-    background-color: #ababab;
+    margin-bottom: -10px;
 }
 
