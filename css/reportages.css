@@ -29,7 +29,7 @@ body {
     margin-top: 20px;
 }
 .container {
-    margin: 0 0 35px 60px;
+    margin: 0 0 35px 0px;
 }
 /* Nav */
 
@@ -84,10 +84,6 @@ body {
 .ws__item {
     display: flex;
     flex-direction: column;
-}
-.ws__date {
-    font-size: 23px;
-    margin-bottom: -13px;
 }
 .ws__name {
     font-size: 30px;

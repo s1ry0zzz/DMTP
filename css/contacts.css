@@ -18,19 +18,7 @@ body {
     margin-top: 10px;
     text-decoration: none;
 }
-/* Container */
 
-.cnt {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-.container {
-    margin: 0 0 35px 60px;
-}
 /* Nav */
 
 .nav {
@@ -107,6 +95,21 @@ hr {
     width: 1400px;
     margin-bottom: 10px;
 }
+
+/* Container */
+
+.cnt {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.container {
+    margin: 0 0 35px 0px;
+}
+
 /* P */
 
 p {
@@ -120,5 +123,8 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+a {
+    text-decoration: none;
 }
 
