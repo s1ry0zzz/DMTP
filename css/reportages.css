@@ -1,133 +1,133 @@
+@charset "UTF-8";
 body {
-    font-family: 'Indie Flower', cursive;
-    font-size: 15px;
-    line-height: 1.6;
-    color: #292929;
-    background-color: #fff;
-    text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #292929;
+  background-color: #fff;
+  text-align: center;
 }
+
 /* Header */
-
 .header {
-    width: 100%;
-    display: flex;
-    /*position: absolute; */
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    text-decoration: none;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-decoration: none;
 }
-/* Container */
 
-.cnt {
-    margin: 0 auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.header .header_inner_logo {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.container {
-    margin: 0 0 35px 0px;
-}
+
 /* Nav */
-
 .nav {
-    font-size: 21px;
-    text-transform: uppercase;
-    margin-bottom: 5px
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
-.nav__link {
-    display: inline-block;
-    margin: 0 30px;
-    position: relative;
-}
-.nav__link {
-    display: inline-block;
-    vertical-align: top;
-    color: #292929;
-    text-decoration: none;
-    transition: color 0.1s linear;
-}
-.nav__link:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1.5px;
-    background-color: #ababab;
-    opacity: 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    transition: opacity 0.3s linear;
-}
-.nav__link:hover {
-    color: #999;
-}
-.nav__link:hover:after {
-    opacity: 1;
-    display: block;
-}
-/* Gallery */
 
-.gallery {
-    display: flex;
-    flex-direction: row;
-    padding: 0 30px 0 30px;
-    margin: 10px 0 10px 0;
-    justify-content: center;
-    margin-top: 10px;
+.nav .nav_link {
+  margin: 0 30px;
+  position: relative;
+  vertical-align: top;
+  color: #777777;
+  text-decoration: none;
+  transition: color 0.1s linear;
 }
-/* wedding Stories */
-.ws__item {
-    display: flex;
-    flex-direction: column;
+
+.nav .nav_use {
+  color: #000000;
 }
-.ws__name {
-    font-size: 30px;
-/* 27px margin-bottom */
+
+.nav .nav_link:hover {
+  color: #000000;
 }
-.img {
-    max-width: 450px;
-    margin: 4px;
+
+.nav .nav_link:hover:after {
+  opacity: 1;
+  display: block;
 }
+
+/* Rpg */
+.rpg {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px 0 30px;
+  margin: 10px 0 10px 0;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.rpg .rpg_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.rpg .rpg_item .rpg_item_img {
+  max-width: 450px;
+  margin: 4px;
+}
+
+.rpg .rpg_item .rpg_item_name {
+  font-size: 30px;
+  /* 27px margin-bottom */
+}
+
+.rpg .rpg_item .rpg_item_imgs_img {
+  max-width: 450px;
+  margin: 4px;
+}
+
 /* Social */
-
 .social {
-    height: 60px;
-    width: 60px;
-    margin: 10px;
+  margin: 0 0 35px 0px;
 }
-.social i {
-    color: #292929;
-    font-size: 32px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-}
-.social:hover {
-    transition: 1s;
-}
-.social:hover i {
-    color: #ababab;
-    transition: .3s;
-    transform: scale(1.1);
-}
-/* HR */
 
+.social .social_links .social_links_link {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+
+.social .social_links .social_links_link:hover {
+  transition: 1s;
+}
+
+.social .social_links .fab {
+  color: #292929;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.social .social_links .fab:hover {
+  color: #ababab;
+  transition: .3s;
+  transform: scale(1.1);
+}
+
+/* Hr */
 hr {
-    margin-top: 10px;
-    background-color: #292929;
-    /* Цвет линии */
-    color: #292929;
-    /* Цвет линии для IE6-7 */
-    width: 1400px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #292929;
+  /* Цвет линии */
+  color: #292929;
+  /* Цвет линии для IE6-7 */
+  width: 1400px;
+  margin-bottom: 10px;
 }
-/* P */
 
-p {
-    font-size: 20px;
-    margin-bottom: -10px;
+/* Ads */
+.ads_name {
+  font-size: 20px;
+  margin-bottom: -10px;
 }

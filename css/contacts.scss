@@ -1,0 +1,168 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #292929;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+
+        .header_inner_logo {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+}
+
+
+/* Nav */
+
+.nav {
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+    .nav_link {
+        margin: 0 30px;
+        position: relative;   
+        vertical-align: top;
+        color: #777777;
+        text-decoration: none;
+        transition: color 0.1s linear;
+    }
+    .nav_use{
+        color: #000000;
+    }
+    .nav_link:hover {
+        color: #000000;
+    }
+
+    .nav_link:hover:after {
+        opacity: 1;
+        display: block;
+    }
+}
+
+
+/* Social */
+
+.social {
+    margin: 0 0 35px 0px;
+        .social_links {
+
+            .social_links_link {
+                height: 60px;
+                width: 60px;
+                margin: 10px;
+            }
+
+            .social_links_link:hover {
+                transition: 1s;
+            }
+        
+            .fab {
+                color: #292929;
+                font-size: 32px;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+        
+            .fab:hover  {
+                color: #ababab;
+                transition: .3s;
+                transform: scale(1.1);
+            }
+       }   
+
+}
+/* HR */
+
+hr {
+    margin-top: 10px;
+    background-color: #292929;
+    /* Цвет линии */
+    color: #292929;
+    /* Цвет линии для IE6-7 */
+    width: 1400px;
+    margin-bottom: 10px;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    .about_info {
+        .about_info_cnt {
+            font-size: 30px;
+        }
+
+        .about_info_tel {
+            .cnts{
+                font-size: 19px;
+            }
+        }
+
+        .about_info_vk {
+            .cnts{
+                font-size: 19px;
+            }
+        }
+
+        .about_info_inst {
+            .cnts{
+                font-size: 19px;
+            }
+        }
+
+        .about_info_fcb {
+            .cnts{
+                font-size: 19px;
+            }
+        }
+
+    }
+}
+
+.about_info_me {
+    color: #292929;
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+.cnts {
+    position: relative;   
+    color: #777777;
+    text-decoration: none;
+    transition: color 0.1s linear;
+}
+
+.cnts:hover {
+    color: #000000;
+}
+
+.cnts:hover:after {
+    opacity: 1;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #ababab;
+}
