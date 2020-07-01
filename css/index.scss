@@ -28,6 +28,32 @@ body {
         }
 }
 
+/* Name */
+
+.name {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+
+    .name_left {
+        width: 150%;
+        color: #c5c5c5;
+    }
+
+    .name_word {
+        background-color: #fff;
+        color: #c5c5c5;
+        font-size: 21px;
+        padding: 4px;
+        width: 5%;
+    }
+
+    .name_right {
+        width: 150%;
+        color: #c5c5c5;
+    }
+
+}
 
 /* Nav */
 
@@ -70,7 +96,7 @@ body {
             flex-direction: column;
 
                 .gallery_column_img {
-                    max-width: 606px;
+                    max-width: 100%;
                     margin: 4px;
                 }
         }    
@@ -111,13 +137,13 @@ body {
 /* Hr */
 
 hr {
-    margin-top: 10px;
-    background-color: #292929;
-    /* Цвет линии */
-    color: #292929;
-    /* Цвет линии для IE6-7 */
-    width: 1400px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+.bottom {
+    color: #c5c5c5;
 }
  
 /* Ads */
@@ -125,4 +151,11 @@ hr {
 .ads_name {
     font-size: 20px;
     margin-bottom: -10px;
+}
+
+
+@media (max-width:1059px){
+    .nav {
+        font-size: 20px;
+    }
 }
